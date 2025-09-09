@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cenário{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 120vh;
+}
+
+.passáro{
+ position: absolute;
+    width: 150px; 
+    top: 550px; 
+    left: 50px;
+    animation-name: Bird;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes passáro{
+    0% {background-position: center; background-size: cover;}
+    25% { }
+    50% { }
+    a
+}
